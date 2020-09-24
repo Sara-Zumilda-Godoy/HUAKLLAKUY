@@ -1,0 +1,413 @@
+/* *:focus {
+    outline: none;
+}
+* {
+    margin:0;
+    padding:0;
+} */
+
+.contenedor{    
+display: flex;
+flex-direction: column;
+padding: 5px;
+background: linear-gradient(180deg, #fdfdfd 50%, rgba(255, 255, 255, 0) 95%), #7a8eb3;
+}
+.icono{
+	text-align: center;
+}
+
+.contenedor1{
+    /* background-image: url("imag/mundo.jpg"); */
+    width: auto;
+	background-position: center center;
+	padding: 30px;
+}
+
+#info{
+	width: 900px;
+	height: auto; overflow: hidden;
+	border: 0px solid #000000;
+	margin-top: 10px;
+}
+
+#der{
+	text-align: center;
+
+}
+
+h1 {
+    font-size: 50px;
+    color: rgb(61, 62, 77);
+    margin: 30px;
+    text-shadow: #555 3px 3px 4px;
+}
+
+h2 {
+    font-size: 50px;
+    color: rgb(61, 62, 77);
+    margin: 15px;
+	text-shadow: #555 3px 3px 4px;
+	text-align: center;
+	font-size: 35px;
+ 
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+
+ul li a{
+	text-decoration: none;
+	padding: 10px 15px;
+	border: 0px solid #ccc;
+    color: #fff; 
+    margin: 70px;
+    font-size: 30px;
+}
+
+.menu ul li a:hover{
+	background: #fff;
+	color: #006699;
+	transition: color 1s;
+}
+
+#slide{
+	margin-top: -5px;
+	width: auto;
+	height: 250px;
+}
+#izq{
+	/* width: 585px;
+	height: auto; overflow: hidden;
+	border: 1px solid #ccc;
+	float: left;
+	padding: 5px; */
+	color: #222425;
+	margin: 20px 80px;
+	width: auto;
+}
+
+.img{
+	margin-right: 7px;
+	margin-bottom: 7px;
+}
+
+/*------------nosotros------------------------*/
+
+.contenedor2{
+    width: auto;
+	height: auto;
+}
+
+.uno{
+	padding: 10px 300px;
+	text-align: center;
+	color: #4682b4;
+	width: auto;
+	height: auto; 
+	overflow: hidden
+}
+
+.parrafo{
+	color: #707070;
+	text-align: justify;
+	margin: 0px 40px 200px 50px ;
+	font-size: 30px;
+	text-align: center;
+}
+
+.leer-mas{
+	text-decoration: none;
+	border: 1px solid #006699;
+	padding: 10px 20px 10px 20px;
+	margin: 10px;
+	margin-bottom: 10px;
+}
+
+.leer-mas:hover{
+	background: #006699;
+	color: #fff;
+	transition: background 1s, color 1s;
+}
+
+
+#info{
+	width: 900px;
+	height: auto; overflow: hidden;
+	border: 0px solid #c0c0c0;
+	margin-top: 10px;
+}
+
+/*------------contacto------------------------*/
+#categoria{
+	overflow: hidden;
+	border: 1px solid #ccc;
+	font-size: 20px;
+	padding: 50px;
+	margin: 5px;
+}
+
+#formulario{
+	overflow: hidden;
+	border: 0px solid #ccc;
+	padding: 5px 150px;
+	font-size: 20px;
+}
+
+#mapa{
+	width: 432px;
+	height: auto;
+	overflow: hidden;
+	border: 1px solid #ccc;
+	padding: 5px;
+	float: right;
+}
+
+input[type="text"]{
+	border: 1px solid #c1c1c1; 
+	padding: 12px;
+	width: 97%;
+}
+
+textarea{
+	border: 1px solid #c1c1c1; 
+	padding: 12px;
+	width: 97%;
+	height: 400px;
+}
+
+.enviar{
+	padding: 10px 20px;
+	background: #006699;
+	color: #fdfdfd;
+	font-size: 16px;
+}
+
+#form{
+	text-decoration: none;
+	padding: 20px 50px;
+	border: 1px solid #ccc;
+    color: rgb(2, 2, 2); 
+    font-size: 20px;
+}
+
+#datos{
+	margin-top: 100px;
+}
+
+/*------------footer------------------------*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+h3{
+	color: white;
+}
+
+footer{
+    width: 100%;
+	background: linear-gradient(180deg, #446094 0%, rgba(255, 255, 255, 0) 120%), #a3bef0;
+    color: white;   
+    
+}
+
+.container-footer-all{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.container-body{
+    display: flex;
+    justify-content: space-between;
+}
+
+.colum1{
+    max-width: 400px;
+}
+
+.colum1 h1{
+    font-size: 22px;
+}
+
+.colum1 p{
+    font-size: 14px;
+    color: #C7C7C7;
+    margin-top: 10px;
+}
+
+.colum2{
+    max-width: 400px;
+    
+}
+
+.colum2 h1{
+    font-size: 22px;
+}
+
+.row{
+    margin-top: 10px;
+    display: flex;
+}
+
+.row img{
+    width: 36px;
+    height: 36px;
+}
+
+.row label{
+    margin-top: 5px;
+    margin-left: 10px;
+    color: #C7C7C7;
+}
+
+.colum3{
+    max-width: 400px;
+}
+
+.colum3 h1{
+    font-size: 22px;
+}
+
+.row2{
+    margin-top: 10px;
+    display: flex;
+}
+
+.row2 img{
+    width: 36px;
+    height: 36px;
+}
+
+.row2 label{
+    margin-top: 5px;
+    margin-left: 10px;
+    max-width: 140px;
+}
+
+.container-footer{
+    width: 100%;  
+    background: #021333;
+}
+
+.footer{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;  
+    padding: 10px;
+}
+
+.copyright{
+    color: #C7C7C7;
+}
+
+.copyright a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.information a{
+    text-decoration: none;
+    color: #C7C7C7;
+}
+
+
+@media screen and (max-width: 1100px){
+    
+    .container-body{
+        flex-wrap: wrap;
+    }
+    
+    .colum1{
+        max-width: 100%;
+    }
+    
+    .colum2,
+    .colum3{
+        margin-top: 20px;
+    }
+}
+
+/*------------servicios------------------------*/
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+    letter-spacing: 0.03em;
+    line-height: 1.6;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.title{
+    text-align: center;
+    font-size: 40px;
+    color: #6a6a6a;
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
+}
+
+.servi{
+	font-size: 20px;
+	text-align: center;
+	line-height: 80%;
+}
+
+
+.container4{
+    /* width: 100%;
+    max-width: 1200px;
+    height: 430px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px 30px 100px 20px;
+}
+
+.container4 .card{
+    width: 330px;
+    height: 430px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+}
+
+.container4 .card:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 15px 18px rgba(0, 0, 0, 0.2);
+}
+
+.container4 .card img{
+    width: 330px;
+    height: 220px;
+}
+
+
+.container4 .card h4{
+    font-weight: 600;
+}
+
+.container4 .card p{
+    padding: 0 1rem;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.container4 .card a {
+    font-weight: 500;
+    text-decoration: none;
+    color: #3498db;
+}
